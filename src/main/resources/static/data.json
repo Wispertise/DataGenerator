@@ -1,0 +1,32 @@
+{
+  "table_name": "Student",
+  "table_comment": "学生表",
+  "col": [{
+    "col_name": "id",
+    "col_type": "int",
+    "col_comment": "学生ID",
+    "is_notNull": true,
+    "is_key": true,
+    "auto_increase": true,
+    "val_type": "顺序",
+    "val_rule": "数字"
+  }, {
+    "col_name": "username",
+    "col_type": "String",
+    "col_comment": "学生用户名",
+    "is_notNull": true,
+    "is_key": false,
+    "auto_increase": false,
+    "val_type": "字符串",
+    "val_rule": "人名"
+  }, {
+      "col_name": "password",
+      "col_type": "String",
+      "col_comment": "学生密码",
+      "is_notNull": true,
+      "is_key": false,
+      "auto_increase": false,
+      "val_type": "字符串",
+      "val_rule": "密码"
+    }]
+}
